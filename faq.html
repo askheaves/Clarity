@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Clarity Acupuncture</title>
+<link rel="stylesheet" type="text/css" href="clarity.css" />
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Ubuntu:regular,bold' />
+<link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Vollkorn:regular,italic,bold' />
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="favicon.ico" />
+<!--[if IE]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+<!--[if lt IE 9]><script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script><![endif]-->
+</head>
+
+<body>
+<!-- Appointy Schedule Pop-Up --> 
+<script type="text/javascript">
+	var appointy = 'catbwanglac';
+	var appointyHeight = '700';
+	var appointyWidth = '900';
+	var ShowSchedulemeImg = true;
+	//if showSchedulemeImg is set to false then it will override the properties below. This can be used if you want to call overlay from your own custom link.
+	var ScheduleMeBgImg = 'http://static.online-scheduling-software.com/Widget/Images/scheduleme.png';
+	var ScheduleMeBg = 'transparent';
+	var ScheduleMeWidth = '47';
+	var ScheduleMeHeight = '150';
+	var ScheduleMePosition = 'right';  // right, left
+	// You can also call function ShowAppointyInOverlay() onclick of any tag. 
+	// e.g. <a href="javascript:void(0)" onclick="ShowAppointyInOverlay();">Schedule with us</a>
+</script> 
+<script type="text/javascript" src="http://static.online-scheduling-software.com/widget/js/appointyOverlayGadget.js"></script> 
+<!-- End Appointy Schedule Pop-Up --> 
+<!-- Collapsing Text --> 
+<script>
+function toggleElement(id)
+{
+	if(document.getElementById(id).style.display == 'none')
+		{
+			document.getElementById(id).style.display = '';
+		}
+    else
+		{
+			document.getElementById(id).style.display = 'none';
+		}
+}
+</script> 
+<!-- End Collapsing Text -->
+<div id="main-container">
+  <div id="header"> <span class="rndimgcnr" style="background-image:url(images/header4.jpg)" > <a href="index.html"><img src="images/header4.jpg" alt="Clarity Acupuncture and Herbs"></a></span> </div>
+ <div id="navigation">
+    <div class="rollover" id="home"> <a href="index.html">Home</a></div>
+    <div class="rollover" id="about"> <a href="about.html">About</a></div>
+    <div class="rollover" id="services"> <a href="services.html">Services</a></div>
+    <div class="rollover" id="herbs"> <a href="herbs.html">Herbs</a></div>
+    <div class="rollover" id="faq-over"> <a href="faq.html">FAQ</a></div>
+    <div class="rollover" id="schedule"> <a href="schedule.html">Schedule</a></div>
+    <div class="rollover" id="contact"> <a href="contact.html">Contact</a></div>
+    <div class="rollover" id="blog"> <a href="blog.html">Blog</a></div>
+  </div>
+  <div id="container">
+    <div id="side-bar-container">
+      <div id="left-bar-1"> 
+        <SCRIPT TYPE = "text/javascript">
+			var randpic = new Array ("images/rnd/ht-1.jpg", "images/rnd/ht-2.jpg", "images/rnd/ht-3.jpg", "images/rnd/ht-4.jpg", "images/rnd/ht-5.jpg", "images/rnd/ht-6.jpg");
+			var randnum = Math.floor(Math.random() * 6);
+			document.write("<img src='" + randpic[randnum] + "'>")
+		</SCRIPT> 
+      </div>
+      <div id="left-bar-2"><a href="javascript:void(0)" onclick="ShowAppointyInOverlay();"><img src="http://appointy.com/Images/scheduleme.png" alt="" border="0" /></a></div>
+      <div id="left-bar-3"> 
+        <SCRIPT TYPE = "text/javascript">
+			var randpic = new Array ("images/rnd1/r-img-1.jpg", "images/rnd1/r-img-2.jpg", "images/rnd1/r-img-3.jpg", "images/rnd1/r-img-4.jpg");
+			var randnum = Math.floor(Math.random() * 4);
+			document.write("<img src='" + randpic[randnum] + "'>")
+		</SCRIPT> 
+      </div>
+    </div>
+    <div id="content">
+      <h2>Frequently Asked Questions</h2>
+      <p>Click the following questions to expand the answer.</p>
+      <div class="faqLinks">
+        <p><a href="javascript:toggleElement('faq1')">1) What Is Acupuncture?</a>
+        <div id="faq1" style="display:none;">Acupuncture is a traditional Chinese practice of inserting fine, sterile needles in various points of the body to stimulate one's natural ability of healing oneself. Other adjective methods such as Electric Stimulation, Moxibustion, Cupping, Gua Sha, Chinese Herbs, and Dietary Therapy are commonly used in conjecture with needles to further strengthen the treatment.</div>
+        </p>
+        <p><a href="javascript:toggleElement('faq2')">2) How Does Acupuncture Work?</a>
+        <div id="faq2" style="display:none">Acupuncture is based on the concept of Qi and the ability to actively control the Qi's movement. The word Qi relates to the body's energy and the effect of which on the health and physiological functions of a person. Qi flows through 14 different meridians in the body, guiding blood and fluids to nourish organs and structures along the pathways. When the body is in good health, Qi is naturally in balance. When a symptom or ailment arises, there is an imbalance in the Qi of the body. By stimulating special points, acupuncture is used to restore regular energy flow and thereby guides one's bodt to address particular problem areas.</div>
+        </p>
+        <p><a href="javascript:toggleElement('faq3')">3) What Certifications Do East Asian Medicine Practitioners Need?</a>
+        <div id="faq3" style="display:none">In order to be licensed in the state of Washington, an acupuncturist needs to graduate from an East Asian medicine school as well as pass the National Board exam provided by the NCCAOM (National Certification Commission for Acupuncture and Oriental Medicine).</div>
+        </p>
+        <p><a href="javascript:toggleElement('faq4')">4) Why Do I Need East Asian Medicine?</a>
+        <div id="faq4" style="display:none">Acupuncture and herbs can be used as an alternative or a conjunctive modality for conventional Western Medicine. Many diseases such as depression, insomnia, ADD/ADHD, fibromyalgia, high blood pressure, allergies and so on can be alleviated by East Asian Medicine. It is a great option for those who are interested in a natural way of medicine.</div>
+        <p><a href="javascript:toggleElement('faq5')">5) Do you accept insurance?</a>
+        <div id="faq5" style="display:none">We accept Premera, Lifewise, Aetna, and Cigna.</div>
+        </p>
+      </div>
+    </div>
+  </div>
+  <div id="footer">
+    <p class="left">© Copyright 2013 - Clarity Acupuncture</p>
+    <p class="right">site by ShilkyDesigns</p>
+  </div>
+</div>
+</body>
+</html>

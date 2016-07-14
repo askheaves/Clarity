@@ -219,22 +219,10 @@ margin-right:10px;
 min-height:500px; /* for modern browsers */
 height:auto !important; /* for modern browsers */
 float:left;
-}	
-
-#left-bar-1 {
-width:auto;
-height:auto !important; /* for modern browsers */
-background-color:#F4FFDD;
-padding:10px;
-overflow:hidden;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
-text-align:center;
-line-height:150%;
 }
 
-#left-bar-2 {
-margin-top: 7px;
+#left-bar-item {
+margin-bottom: 7px;
 width:auto;
 height:auto !important; /* for modern browsers */
 background-color:#F4FFDD;

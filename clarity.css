@@ -246,19 +246,6 @@ text-align: center;
 line-height:150%;
 }
 
-#left-bar-3 {
-margin-top: 7px;
-width:auto;
-height:auto !important; /* for modern browsers */
-background-color:#F4FFDD;
-padding:10px;
-overflow:hidden;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
-text-align: center;
-line-height:150%;
-}
-
 
 /* ----- MAIN CONTENT ----- */
 

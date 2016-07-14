@@ -254,8 +254,7 @@ mail($my_email,$subject,$message,$headers);
 			document.write("<img src='" + randpic[randnum] + "'>")
 		</SCRIPT> 
       </div>
-      <div id="left-bar-2"><a href="javascript:void(0)" onclick="ShowAppointyInOverlay();"><img src="http://appointy.com/Images/scheduleme.png" alt="" border="0" /></a></div>
-      <div id="left-bar-3"> 
+      <div id="left-bar-2"> 
         <SCRIPT TYPE = "text/javascript">
 			var randpic = new Array ("images/rnd1/r-img-1.jpg", "images/rnd1/r-img-2.jpg", "images/rnd1/r-img-3.jpg", "images/rnd1/r-img-4.jpg");
 			var randnum = Math.floor(Math.random() * 4);

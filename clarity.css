@@ -62,7 +62,7 @@ float: left;
 
 #home a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/home-nav.jpg) no-repeat left top;
 }
 #home a:hover {
@@ -71,14 +71,14 @@ background-position: left -40px; /* This negative value should match the height 
 #home-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/home-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #about a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/about-nav.jpg) no-repeat left top;
 }
 #about a:hover {
@@ -87,14 +87,14 @@ background-position: left -40px; /* This negative value should match the height 
 #about-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/about-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #services a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/services-nav.jpg) no-repeat left top;
 }
 #services a:hover {
@@ -103,14 +103,14 @@ background-position: left -40px; /* This negative value should match the height 
 #services-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/services-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #herbs a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/herbs-nav.jpg) no-repeat left top;
 }
 #herbs a:hover {
@@ -119,14 +119,14 @@ background-position: left -40px; /* This negative value should match the height 
 #herbs-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/herbs-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #faq a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/faq-nav.jpg) no-repeat left top;
 }
 #faq a:hover {
@@ -135,14 +135,14 @@ background-position: left -40px; /* This negative value should match the height 
 #faq-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/faq-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #schedule a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/schedule-nav.jpg) no-repeat left top;
 }
 #schedule a:hover {
@@ -151,14 +151,14 @@ background-position: left -40px; /* This negative value should match the height 
 #schedule-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/schedule-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #contact a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/contact-nav.jpg) no-repeat left top;
 }
 #contact a:hover {
@@ -167,14 +167,14 @@ background-position: left -40px; /* This negative value should match the height 
 #contact-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/contact-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }
 
 #blog a {
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/blog-nav.jpg) no-repeat left top;
 }
 #blog a:hover {
@@ -183,7 +183,7 @@ background-position: left -40px; /* This negative value should match the height 
 #blog-over {
 float: left;
 height: 40px; /* Height of the visible portion of the button only */
-width: 120px; /* Width of the button */
+width: 135px; /* Width of the button */
 background: url(images/nav/blog-nav.jpg) no-repeat left top;
 background-position: left -40px; /* This negative value should match the height above */
 }

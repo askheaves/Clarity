@@ -235,7 +235,7 @@ mail($my_email,$subject,$message,$headers);
 <div id="main-container">
   <div id="header"> <span class="rndimgcnr" style="background-image:url(images/header4.jpg)" > <a href="index.html"><img src="images/header4.jpg" alt="Clarity Acupuncture and Herbs"></a></span> </div>
   <div id="navigation">
-    <div class="rollover" id="home-over"> <a href="index.html">Home</a></div>
+    <div class="rollover current" id="home"> <a href="index.html">Home</a></div>
     <div class="rollover" id="about"> <a href="about.html">About</a></div>
     <div class="rollover" id="services"> <a href="services.html">Services</a></div>
     <div class="rollover" id="herbs"> <a href="herbs.html">Herbs</a></div>

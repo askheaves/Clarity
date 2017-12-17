@@ -1,194 +1,108 @@
 @charset "utf-8";
+
 /* CSS Document */
 
 html {
-	overflow-y: scroll;
+  overflow-y: scroll;
 }
 
-
 body {
-font-family: Tahoma, Arial, Helvetica, sans-serif;
-font-size: 12px;
-color: #000000;
-background-image: url(images/background-leaf.jpg);
-background-repeat:no-repeat;
-background-attachment:fixed;
+  font-family: Tahoma, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  background-image: url(images/background-leaf.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 
 /* ----- MAIN CONTAINER -----*/
+
 #main-container {
-width:960px;
-background-color:#D9E9A2;
-margin:auto;
-margin-top:30px;
-margin-bottom:60px;
-padding:10px;
-border-radius:10px;
--moz-border-radius:10px; /* Old Firefox */
-box-shadow:0 3px 15px #000000;
--moz-box-shadow:5px 5px 12px -3px #4D4D4D; /* Old Firefox */
+  width: 960px;
+  background-color: #D9E9A2;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 60px;
+  padding: 10px;
+  border-radius: 10px;
+  -moz-border-radius: 10px; /* Old Firefox */
+  box-shadow: 0 3px 15px #000000;
+  -moz-box-shadow: 5px 5px 12px -3px #4D4D4D; /* Old Firefox */
 }
 
 
 /* ----- HEADER ----- */
 
 #header {
-width:auto;
-height:auto;
+  width: auto;
+  height: auto;
 }
 
 
 /* ----- NAVIGATION ----- */
 
 #navigation {
-width:auto;
-height:auto;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
-background-color:#F6FAE8;
-margin-top:10px;
-overflow:hidden;
+  width: auto;
+  height: auto;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px; /* Old Firefox */
+  background-color: #F6FAE8;
+  margin-top: 10px;
+  overflow: hidden;
 }
 
 .rollover a {
-display: block;
-text-indent: -9999px;
-margin: auto;
-cursor: pointer;
-outline: transparent solid 0px;
-float: left;
+  display: block;
+  text-indent: -9999px;
+  margin: auto;
+  cursor: pointer;
+  outline: transparent solid 0px;
+  float: left;
+}
+
+#navigation a {
+  height: 40px; /* Height of the visible portion of the button only */
+  width: 155px; /* Width of the button */
+  background-position: left 0px; /* This negative value should match the height above */
+}
+
+#navigation .current a {
+  float: left;
+  background-position: left -40px;
+}
+
+#navigation a:hover {
+  background-position: left -40px;
 }
 
 #home a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/home-nav.jpg) no-repeat left top;
-}
-#home a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#home-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/home-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/home-nav.jpg) no-repeat left top;
 }
 
 #about a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/about-nav.jpg) no-repeat left top;
-}
-#about a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#about-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/about-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/about-nav.jpg) no-repeat left top;
 }
 
 #services a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/services-nav.jpg) no-repeat left top;
-}
-#services a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#services-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/services-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
-}
-
-#herbs a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/herbs-nav.jpg) no-repeat left top;
-}
-#herbs a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#herbs-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/herbs-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/services-nav.jpg) no-repeat left top;
 }
 
 #faq a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/faq-nav.jpg) no-repeat left top;
-}
-#faq a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#faq-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/faq-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
-}
-
-#schedule a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/schedule-nav.jpg) no-repeat left top;
-}
-#schedule a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#schedule-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/schedule-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/faq-nav.jpg) no-repeat left top;
 }
 
 #contact a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/contact-nav.jpg) no-repeat left top;
-}
-#contact a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#contact-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/contact-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/contact-nav.jpg) no-repeat left top;
 }
 
 #blog a {
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/blog-nav.jpg) no-repeat left top;
-}
-#blog a:hover {
-background-position: left -40px; /* This negative value should match the height above */
-}
-#blog-over {
-float: left;
-height: 40px; /* Height of the visible portion of the button only */
-width: 135px; /* Width of the button */
-background: url(images/nav/blog-nav.jpg) no-repeat left top;
-background-position: left -40px; /* This negative value should match the height above */
+  background: url(images/nav/blog-nav.jpg) no-repeat left top;
 }
 
+
 /* FAUX LAYOUT WRAPPER */
+
 
 /* 
 #faux{
@@ -203,97 +117,98 @@ margin-top:10px;
 /* ----- CONTAINER FOR SIDE BAR AND CONTENT----- */
 
 #container {
-margin-top: 7px;
-width:auto;
-min-height:500px; /* for modern browsers */
-height:auto !important; /* for modern browsers */
-overflow: hidden;
+  margin-top: 7px;
+  width: auto;
+  min-height: 500px; /* for modern browsers */
+  height: auto !important; /* for modern browsers */
+  overflow: hidden;
 }
 
 
 /* ----- SIDE BAR ----- */
 
 #side-bar-container {
-width:240px;
-margin-right:10px;
-min-height:500px; /* for modern browsers */
-height:auto !important; /* for modern browsers */
-float:left;
+  width: 240px;
+  margin-right: 10px;
+  min-height: 500px; /* for modern browsers */
+  height: auto !important; /* for modern browsers */
+  float: left;
 }
 
 #left-bar-item {
-margin-bottom: 7px;
-width:auto;
-height:auto !important; /* for modern browsers */
-background-color:#F4FFDD;
-padding:10px;
-overflow:hidden;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
-text-align: center;
-line-height:150%;
+  margin-bottom: 7px;
+  width: auto;
+  height: auto !important; /* for modern browsers */
+  background-color: #F4FFDD;
+  padding: 10px;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px; /* Old Firefox */
+  text-align: center;
+  line-height: 150%;
 }
 
 
 /* ----- MAIN CONTENT ----- */
 
-#content { 
-width:auto;
-min-height:500px; /* for modern browsers */
-height:auto !important; /* for modern browsers */
-background-color:#F6FAE8;
-padding:10px 20px 10px 20px;
-overflow:hidden;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
-line-height:150%;
+#content {
+  width: auto;
+  min-height: 500px; /* for modern browsers */
+  height: auto !important; /* for modern browsers */
+  background-color: #F6FAE8;
+  padding: 10px 20px 10px 20px;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px; /* Old Firefox */
+  line-height: 150%;
 }
 
 
 /* ----- FOOTER ----- */
 
-#footer { 
-width:auto;
-margin-top:7px;
-background-color:#9CC08A;
-font-size:11px;
-padding:0 10px;
-overflow:hidden;
-border-radius:5px 5px 5px 5px;
--moz-border-radius:5px 5px 5px 5px; /* Old Firefox */
+#footer {
+  width: auto;
+  margin-top: 7px;
+  background-color: #9CC08A;
+  font-size: 11px;
+  padding: 0 10px;
+  overflow: hidden;
+  border-radius: 5px 5px 5px 5px;
+  -moz-border-radius: 5px 5px 5px 5px; /* Old Firefox */
 }
 
 #footer p.left {
-float:left;
+  float: left;
 }
 
 #footer p.right {
-float:right;
+  float: right;
 }
 
 
 /* ----- PAGE SPECIFIC CSS ----- */
 
+
 /* ----- FAQ ----- */
 
-.faqLinks a:link    {
-text-decoration:  none;
-font-weight:bold;
-color:#000000;
-} 
+.faqLinks a:link {
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+}
 
 
 /* ----- HEADER -----*/
 
 span.rndimgcnr {
--moz-border-radius:15px 15px 15px 15px;
-border-radius:15px 15px 15px 15px;
--moz-box-shadow:0 2px 10px #000000;
-box-shadow:0 2px 10px #000000;
-display:block;
+  -moz-border-radius: 15px 15px 15px 15px;
+  border-radius: 15px 15px 15px 15px;
+  -moz-box-shadow: 0 2px 10px #000000;
+  box-shadow: 0 2px 10px #000000;
+  display: block;
 }
 
 span.rndimgcnr img {
-opacity:0;
-vertical-align:bottom;
+  opacity: 0;
+  vertical-align: bottom;
 }

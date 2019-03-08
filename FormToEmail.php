@@ -276,7 +276,7 @@ mail($my_email,$subject,$message,$headers);
     </div>
   </div>
   <div id="footer">
-    <p class="left">© Copyright 2018 - Clarity Acupuncture</p>
+    <p class="left">© Copyright 2019 - Clarity Acupuncture</p>
     <p class="right">site by ShilkyDesigns</p>
   </div>
 </div>
